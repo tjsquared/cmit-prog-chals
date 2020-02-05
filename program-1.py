@@ -6,7 +6,7 @@
 # and then output the day with the minimal temperature spread
 
 # The import statement below imports the debugger.
-# It is used with pdb.set_trace() to set breakpoints
+# It is used with pdb.set_trace() to set breakpoints.
 import pdb
 
 # This import statement imports the regex module.
@@ -54,6 +54,6 @@ for each_day in range(len(weather_data)):
         minimal_spread_day.append(weather_data[each_day][0])
 
 # The below command prints the day or days with the minimum temperature
-# spread and the minimum temperature spread
+# spread and the minimum temperature spread.
 print ("\nDay(s) with Minimum Spread: ", minimal_spread_day, 
         "; Minimum Spread: ", minimal_temperature_spread, "\n")
